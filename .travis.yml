@@ -12,7 +12,7 @@ before_install:
 - export SFDX_DISABLE_APP_HUB=true
 - export SFDX_LOG_LEVEL=DEBUG
 - export CONSUMER_KEY=3MVG9TSaZ8P6zP1pZrmMghgZXjdvsZeP7wHqnVUCYzG6W.l9RUnzSMX3gK0H6.xXSJsy1rnuhhFK2zevUw92d
-- export HUB_USERNAME=paul.birkinhead@express-gifts.co.uk
+- export USERNAME=paul.birkinhead@express-gifts.co.uk
 - mkdir sfdx
 - wget -qO- $URL | tar xJ -C sfdx --strip-components 1
 - ./sfdx/install
